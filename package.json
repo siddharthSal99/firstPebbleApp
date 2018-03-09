@@ -1,0 +1,21 @@
+{
+    "author": "siddharth.salunkhe11@gmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "myapp",
+    "pebble": {
+        "displayName": "MyApp",
+        "enableMultiJS": false,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": []
+        },
+        "sdkVersion": "3",
+        "uuid": "50c81ded-07fe-4e67-ac1d-f73b00cee6a8",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.0.0"
+}
