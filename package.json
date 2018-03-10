@@ -1,17 +1,33 @@
 {
-    "author": "siddharth.salunkhe11@gmail.com",
+    "author": "Siddharth ",
     "dependencies": {},
     "keywords": [],
     "name": "myapp",
     "pebble": {
         "displayName": "MyApp",
-        "enableMultiJS": false,
-        "messageKeys": [],
+        "enableMultiJS": true,
+        "messageKeys": [
+            "icon",
+            "temperature",
+            "getWeather",
+            "cityid",
+            "cityname"
+        ],
         "projectType": "native",
         "resources": {
-            "media": []
+            "media": [
+                {
+                    "file": "images/weather-icon.png",
+                    "name": "imgSplash",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
         },
         "sdkVersion": "3",
+        "targetPlatforms": [
+            "basalt"
+        ],
         "uuid": "50c81ded-07fe-4e67-ac1d-f73b00cee6a8",
         "watchapp": {
             "watchface": false
